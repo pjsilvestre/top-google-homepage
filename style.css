@@ -23,7 +23,7 @@ header a {
 	margin: 0px 10px;
 }
 
-header a:visted {
+header a:visited {
 	color: #000000;
 }
 
