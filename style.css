@@ -1,11 +1,20 @@
 html {
+	height: 100%;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 }
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
 header {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px;
+	flex: auto;
+	padding: 15px;
 }
 
 header a {
@@ -20,22 +29,27 @@ header a {
 .search-form {
 	display: flex;
 	justify-content: center;
+	flex: auto;
 }
 
 .search-input {
 	display: flex;
 	justify-content: center;
+	flex: auto;
 }
 
-.search-buttons{
+.search-buttons {
 	display: flex;
 	justify-content: center;
+	flex: auto;
 }
 
 footer {
+	background-color: #f2f2f2;
 	display: flex;
 	justify-content: space-between;
-	margin: 10px;
+	flex-shrink: 0px;
+	padding: 15px;
 }
 
 footer a {
