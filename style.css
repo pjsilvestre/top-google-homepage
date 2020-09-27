@@ -18,7 +18,13 @@ header {
 }
 
 header a {
+	text-decoration: none;
+	color: #000000;
 	margin: 0px 10px;
+}
+
+header a:visted {
+	color: #000000;
 }
 
 .google-logo {
@@ -53,5 +59,11 @@ footer {
 }
 
 footer a {
+	text-decoration: none;
+	color: #5f6368;
 	margin: 0px 10px;
+}
+
+footer a:visited {
+	color: #5f6368;
 }
