@@ -1,27 +1,19 @@
 header {
-	display: grid;
-	grid-template-areas: "header-left header-right";
+	display: flex;
+	justify-content: space-between;
 	margin: 10px;
 }
 
-header.header-left {
-	grid-area: header-left;
-}
-
-header.header-right {
-	grid-area: header-right;
+header a {
+	margin: 0px 10px;
 }
 
 footer {
-	display: grid;
-	grid-template-areas: "footer-left footer-right";
+	display: flex;
+	justify-content: space-between;
 	margin: 10px;
 }
 
-footer.footer-left {
-	grid-area: footer-left;
-}
-
-footer.footer-right {
-	grid-area: footer-right;
+footer a {
+	margin: 0px 10px;
 }
