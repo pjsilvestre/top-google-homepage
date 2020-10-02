@@ -1,26 +1,26 @@
 html {
-  height: 100%;
   font-family: Arial, sans-serif;
   font-size: 14px;
+  height: 100%;
 }
 
 body {
-  height: 100%;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
   flex: auto;
+  justify-content: space-between;
   padding: 15px;
 }
 
 header a {
-  text-decoration: none;
   color: #000000;
   margin: 0px 10px;
+  text-decoration: none;
 }
 
 header a:visited {
@@ -34,34 +34,34 @@ header a:visited {
 
 .search-form {
   display: flex;
-  justify-content: center;
   flex: auto;
+  justify-content: center;
 }
 
 .search-input {
   display: flex;
-  justify-content: center;
   flex: auto;
+  justify-content: center;
 }
 
 .search-buttons {
   display: flex;
-  justify-content: center;
   flex: auto;
+  justify-content: center;
 }
 
 footer {
   background-color: #f2f2f2;
   display: flex;
-  justify-content: space-between;
   flex-shrink: 0px;
+  justify-content: space-between;
   padding: 15px;
 }
 
 footer a {
-  text-decoration: none;
   color: #5f6368;
   margin: 0px 10px;
+  text-decoration: none;
 }
 
 footer a:visited {
