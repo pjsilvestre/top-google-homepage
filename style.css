@@ -14,13 +14,18 @@ header {
   display: flex;
   flex: 0 0 20%;
   justify-content: space-between;
-  padding: 1em;
+  padding: 1.4em 1em;
 }
 
 header a {
   color: #000000;
-  margin: 0em 1em;
+  margin: 0em 0.4em;
+  opacity: 75%;
   text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
 }
 
 header a:visited {
