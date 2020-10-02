@@ -27,6 +27,15 @@ header a:visited {
   color: #000000;
 }
 
+#sign-in-button {
+  background-color: #4484f0;
+  border-radius: 0.1em;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.55em 1.1em;
+}
+
 .google-logo {
   display: flex;
   justify-content: center;
