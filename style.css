@@ -1,6 +1,6 @@
 html {
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 0.8em;
   height: 100%;
 }
 
@@ -14,12 +14,12 @@ header {
   display: flex;
   flex: auto;
   justify-content: space-between;
-  padding: 15px;
+  padding: 1em;
 }
 
 header a {
   color: #000000;
-  margin: 0px 10px;
+  margin: 0em 1em;
   text-decoration: none;
 }
 
@@ -44,23 +44,28 @@ header a:visited {
   justify-content: center;
 }
 
-.search-buttons {
+.search-buttons-container {
   display: flex;
   flex: auto;
   justify-content: center;
 }
 
+.search-button {
+  border: none;
+  margin: 1em;
+}
+
 footer {
   background-color: #f2f2f2;
   display: flex;
-  flex-shrink: 0px;
+  flex-shrink: 0em;
   justify-content: space-between;
-  padding: 15px;
+  padding: 1em;
 }
 
 footer a {
   color: #5f6368;
-  margin: 0px 10px;
+  margin: 0em 1em;
   text-decoration: none;
 }
 
