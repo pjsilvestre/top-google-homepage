@@ -50,7 +50,7 @@ header a:visited {
   border-style: solid;
   height: 3rem;
   font-size: 1.2em;
-  padding: 0 5%;
+  padding: 0 1rem;
   width: 45rem;
 }
 
@@ -62,7 +62,12 @@ header a:visited {
 
 .search-button {
   border: none;
-  margin: 1em;
+  border-radius: 0.3em;
+  color: grey;
+  height: 2.5rem;
+  font-size: 1.2em;
+  width: 11rem;
+  margin: 1em 0.5em;
 }
 
 footer {
