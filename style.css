@@ -30,6 +30,7 @@ header a:visited {
 .google-logo {
   display: flex;
   justify-content: center;
+  margin: 0 0 2em 0;
 }
 
 .search-form {
@@ -38,10 +39,19 @@ header a:visited {
   justify-content: center;
 }
 
-.search-input {
+.search-input-container {
   display: flex;
   flex: auto;
   justify-content: center;
+}
+
+#query {
+  border-radius: 2em;
+  border-style: solid;
+  height: 3rem;
+  font-size: 1.2em;
+  padding: 0 5%;
+  width: 45rem;
 }
 
 .search-buttons-container {
