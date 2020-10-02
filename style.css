@@ -12,7 +12,7 @@ body {
 
 header {
   display: flex;
-  flex: auto;
+  flex: 0 0 20%;
   justify-content: space-between;
   padding: 1em;
 }
